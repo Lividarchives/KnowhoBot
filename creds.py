@@ -5,10 +5,10 @@ load_dotenv(find_dotenv())
 
 
 class cred():
-    BOT_TOKEN = os.getenv("BOT_TOKEN") #From botfather
-    API_ID = os.getenv("API_ID")       #"Get this value from my.telegram.org! Please do not steal"
-    API_HASH = os.getenv("API_HASH")   #"Get this value from my.telegram.org! Please do not steal"
-    DB_URL = os.getenv("DB_URL")       #From Firebase database
+    BOT_TOKEN = ""
+    API_ID = 1390245    
+    API_HASH = "a021871c10d820e0bb7a5d0e999d8c7f"
+    DB_URL = "https://truecallerbot-fe076-default-rtdb.firebaseio.com/"
 
     ####From Truecaller and Eyecon app request headers respectively########
 
