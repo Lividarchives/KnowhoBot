@@ -2,7 +2,7 @@ import json
 from pyrogram import Client, filters
 from firebase import firebase
 from process import check, searches, truecaller_search, fb_search, logreturn, log, eyecon_search
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import InlineKeyboardMarkup, InlineKeyboardButton
 from creds import cred
 
 firebase = firebase.FirebaseApplication(cred.DB_URL)
